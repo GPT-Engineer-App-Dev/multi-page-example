@@ -1,5 +1,5 @@
 import { Container, Text, VStack } from '@chakra-ui/react';
-import { FaRegAddressCard } from '@react-icons/fa';
+
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
       alignItems="center"
     >
       <VStack spacing={4}>
-        <Text fontSize="2xl"><FaRegAddressCard style={{ fontSize: '24px', marginRight: '10px' }} />About Us</Text>
+        <Text fontSize="2xl">About Us</Text>
         <Text>Welcome to our website where we showcase our multi-page application capabilities.</Text>
       </VStack>
     </Container>
