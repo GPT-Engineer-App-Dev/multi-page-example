@@ -1,4 +1,5 @@
 import { Container, Text, VStack } from '@chakra-ui/react';
+import { FaEnvelopeOpenText } from '@react-icons/fa';
 
 const Contact = () => {
   return (
@@ -12,7 +13,7 @@ const Contact = () => {
       alignItems="center"
     >
       <VStack spacing={4}>
-        <Text fontSize="2xl">Contact Us</Text>
+        <Text fontSize="2xl"><FaEnvelopeOpenText style={{ fontSize: '24px', marginRight: '10px' }} />Contact Us</Text>
         <Text>Feel free to reach out through our contact form.</Text>
       </VStack>
     </Container>
