@@ -1,6 +1,7 @@
 import { Container, Text, VStack } from '@chakra-ui/react';
 
 
+
 const Contact = () => {
   return (
     <Container
