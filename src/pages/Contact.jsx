@@ -1,6 +1,6 @@
-import { Container, Text, VStack } from "@chakra-ui/react";
+import { Container, Text, VStack } from '@chakra-ui/react';
 
-const Index = () => {
+const Contact = () => {
   return (
     <Container
       centerContent
@@ -12,11 +12,11 @@ const Index = () => {
       alignItems="center"
     >
       <VStack spacing={4}>
-        <Text fontSize="2xl">Welcome to Our Website</Text>
-        <Text>Explore the different pages using the navigation bar above.</Text>
+        <Text fontSize="2xl">Contact Us</Text>
+        <Text>Feel free to reach out through our contact form.</Text>
       </VStack>
     </Container>
   );
 };
 
-export default Index;
+export default Contact;
