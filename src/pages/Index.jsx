@@ -1,4 +1,5 @@
 import { Container, Text, VStack } from "@chakra-ui/react";
+import { FaArrowRight } from '@react-icons/fa';
 
 
 
@@ -14,7 +15,7 @@ const Index = () => {
       alignItems="center"
     >
       <VStack spacing={4}>
-        <Text fontSize="2xl">Welcome to Our Website</Text>
+        <Text fontSize="2xl"><FaArrowRight style={{ marginRight: '8px' }} />Welcome to Our Website</Text>
         <Text>Explore the different pages using the navigation bar above.</Text>
       </VStack>
     </Container>
