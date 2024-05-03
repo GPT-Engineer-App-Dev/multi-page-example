@@ -1,4 +1,5 @@
 import { Container, Text, VStack } from "@chakra-ui/react";
+import { FaRegSmileWink } from '@react-icons/fa';
 
 
 const Index = () => {
@@ -13,7 +14,7 @@ const Index = () => {
       alignItems="center"
     >
       <VStack spacing={4}>
-        <Text fontSize="2xl">Welcome to Our Website</Text>
+        <Text fontSize="2xl">Welcome to Our Website <FaRegSmileWink /></Text>
         <Text>Explore the different pages using the navigation bar above.</Text>
       </VStack>
     </Container>

@@ -1,4 +1,5 @@
 import { Container, Text, VStack } from '@chakra-ui/react';
+import { FaPhone } from '@react-icons/fa';
 
 
 const Contact = () => {
@@ -13,7 +14,7 @@ const Contact = () => {
       alignItems="center"
     >
       <VStack spacing={4}>
-        <Text fontSize="2xl">Contact Us</Text>
+        <Text fontSize="2xl"><FaPhone /> Contact Us</Text>
         <Text>Feel free to reach out through our contact form.</Text>
       </VStack>
     </Container>
